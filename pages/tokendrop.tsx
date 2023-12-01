@@ -251,8 +251,7 @@ const Home = () => {
       <div>
         Total supply : {claimedSupply.data?.displayValue}{' '}
         {contractMetadata?.symbol} <br />
-        Balance of this wallet : {balance?.displayValue}{' '}
-        {contractMetadata?.symbol}
+        Current wallet has : {balance?.displayValue} {contractMetadata?.symbol}
       </div>
       <br />
       <div className={styles.claimGrid}>
